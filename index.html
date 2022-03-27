@@ -9,7 +9,7 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 140px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -30,15 +30,16 @@ body {
 }
 .edge{
   height: 100%;
-  width: 32px;
+  width: 154px;
   position: fixed;
+  z-index: 0;
   top: 0;
   left: 0;
   background-color: #cc99ff;
-  overflow-x: hidden;
 }
+
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 154px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -47,7 +48,6 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
-
 </head>
 <body>
     <div class="sidenav">
@@ -55,10 +55,9 @@ body {
         <a href="scoot.html">Scoot</a>
     </div>
     <div class="edge"></div>
-    </div>
     <div class="main">
-        <h1>dylarf.com</h1>
-        <p>So got damn wholsom</p>
+      <h1>dylarf.com</h1>
+      <p>So got damn wholsom</p>
     </div>
 </body>
 </html>
